@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/auth.css">
+
+    <title>PT Pelni - Landing Page</title>
+</head>
+<body>
+
+    <div class="content-register">
+       <img src="assets/img/logo_pelni.png" alt="logo" width="250"> 
+
+       <h1 class="text-danger">REGISTRASI AKUN</h1>
+
+        <form action="#" method="post">
+            <div class="biodata">
+                <h3 class="text-danger text-left margin-0 mb-custom">Biodata</h3>
+
+                <div class="row100">
+                   <div class="formLeft text-left">
+                        <div class="form-group mb-10">
+                            <label for="jenis_kelamin" class="text-danger font-weight-bold mb-5">Jenis Kelamin</label>
+                            <div class="input-group-auth">
+                                <span class="input-group-auth-addon">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                                <select name="jenis_kelamin" id="jenis_kelamin">
+                                    <option value="">Pilih Jenis Kelamin</option>
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select>
+                            </div> 
+                        </div>
+
+                        <div class="form-group mb-10">
+                            <label for="tipe_identitas" class="text-danger font-weight-bold mb-5">Tipe Identitas</label>
+                            <div class="input-group-auth">
+                                <span class="input-group-auth-addon">
+                                    <i class="fa fa-id-card"></i>
+                                </span>
+                                <select name="tipe_identitas" id="tipe_identitas">
+                                    <option value="">Pilih Tipe Identitas</option>
+                                    <option value="NIK">NIK</option>
+                                </select>
+                            </div> 
+                        </div>
+
+                        <div class="form-group mb-10">
+                            <label for="tgl_lahir" class="text-danger font-weight-bold mb-5">Tanggal Lahir</label>
+                            <div class="input-group-auth">
+                                <span class="input-group-auth-addon">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                                <input type="date" name="tgl_lahir" id="tgl_lahir">
+                            </div> 
+                        </div>
+
+                        <div class="form-group mb-10">
+                            <label for="hp" class="text-danger font-weight-bold mb-5">Nomor HP</label>
+                            <div class="input-group-auth">
+                                <span class="input-group-auth-addon">
+                                    <i class="fa fa-phone"></i>
+                                </span>
+                                <input type="text" name="hp" id="hp" placeholder="Masukkan nomor HP">
+                            </div> 
+                        </div>
+                   </div> 
+                   <div class="formRight text-left">
+                        <div class="inner-div">                        
+                            <div class="form-group mb-10">
+                                <label for="nama_lengkap" class="text-danger font-weight-bold mb-5">Nama Lengkap</label>
+                                <div class="input-group-auth">
+                                    <span class="input-group-auth-addon">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Nama sesuai KTP / Paspor">
+                                </div> 
+                            </div> 
+
+                            <div class="form-group mb-10">
+                                <label for="nomor_identitas" class="text-danger font-weight-bold mb-5">Nomor Identitas</label>
+                                <div class="input-group-auth">
+                                    <span class="input-group-auth-addon">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    <input type="text" name="nomor_identitas" id="nomor_identitas" placeholder="Nomor identitas sesuai KTP / Paspor">
+                                </div> 
+                            </div> 
+
+                            <div class="form-group mb-10">
+                                <label for="email" class="text-danger font-weight-bold mb-5">Email</label>
+                                <div class="input-group-auth">
+                                    <span class="input-group-auth-addon">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                    <input type="text" name="email" id="email" placeholder="example@gmail.com">
+                                </div> 
+                            </div> 
+                        </div>
+                   </div> 
+                </div>
+            </div>
+
+            <div class="otentikasi">
+                <h3 class="text-danger text-left margin-0 mb-custom">Otentikasi</h3>
+
+                <div class="text-left">
+                    <div class="form-group mb-custom">
+                        <label for="password" class="text-danger font-weight-bold mb-5">Password</label> <br>
+                        <small class="text-italic text-grey">minimum 8 karakter, terdiri dari huruf dan angka</small>
+                        <div class="input-group-auth">
+                            <span class="input-group-auth-addon">
+                                <i class="fa fa-lock"></i>
+                            </span>
+                            <input type="password" name="password" id="password" placeholder="Password" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: none;">
+                            <button class="btn-hide-show-password">
+                                <i class="fa fa-eye-slash"></i>
+                            </button>
+                        </div> 
+                    </div> 
+
+                    <div class="form-group mb-custom">
+                        <label for="confirm_password" class="text-danger font-weight-bold mb-5">Konfirmasi Password</label>
+                        <div class="input-group-auth">
+                            <span class="input-group-auth-addon">
+                                <i class="fa fa-lock"></i>
+                            </span>
+                            <input type="password" name="confirm_password" id="confirm_password" placeholder="Password" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: none;">
+                            <button class="btn-hide-show-password">
+                                <i class="fa fa-eye-slash"></i>
+                            </button>
+                        </div> 
+                    </div>                     
+                </div> 
+            </div>
+
+            
+        </form>
+
+        <button class="btn-daftar" onclick="location.href='email_verification.html'">
+            Daftar
+        </button>
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <img src="assets/img/footer.png" alt="footer" width="100%">
+        </div>
+        <hr class="separator-footer">
+        <div class="footer-sponsor">
+            <img src="assets/img/footer-sponsor.png" alt="sponsor" width="100%">
+        </div>
+    </footer>
+    <div class="footer-copyright">
+        &copy; Copyright 2022 - PT PELNI
+    </div>
+
+    <div class="dropdown-user" style="display: none;">
+        <div class="dropdown-menu">
+           <a href="">Riwayat Transaksi</a>
+        </div>
+        <div class="dropdown-menu">
+            <a href="">Pengaturan</a>
+        </div>
+        <div class="dropdown-menu">
+            <button class="btn-logout" onclick="location.href='index.html'">Logout</button>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>    
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+</body> 
+</html>

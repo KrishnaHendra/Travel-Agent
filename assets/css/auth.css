@@ -1,0 +1,120 @@
+.content-register{
+    margin: 50px;
+    text-align: center;
+}
+.biodata{
+    margin: auto;
+    height: 365px;
+    padding: 20px;
+    width: 700px;
+    background: white;
+    border: 1px solid #ba0716;
+    border-radius: 10px;
+}
+
+.otentikasi{
+    margin-top: 30px !important;
+    margin: auto;
+    /* height: 365px; */
+    padding: 20px;
+    width: 700px;
+    background: white;
+    border: 1px solid #ba0716;
+    border-radius: 10px;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.row100{
+    width: 100%;
+}
+.formLeft{
+    width: 40%;
+    float: left;
+}
+.formRight{
+    width: 60%;
+    float: right;
+}
+
+.input-group-auth {
+    display: flex;
+    align-content: stretch;
+    margin-top: 7px;
+  }
+  
+  .input-group-auth > select {
+    flex: 1 0 auto;
+    border: 1px solid #a6a6a6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 20px;
+    color: #707070;
+}
+.input-group-auth > input {
+    flex: 1 0 auto;
+    border: 1px solid #a6a6a6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 20px;
+    color: #707070;
+  }
+
+  .input-group-auth-addon {
+    background: #eee;
+    border: 1px solid #a6a6a6;
+    border-right: none;
+    padding: 0.8em 1em;
+    color: #707070;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.inner-div{
+    padding: 0 0 0 30px;
+}
+.btn-hide-show-password{
+    background: none;
+    border: 1px solid #a6a6a6;
+    border-left: none;
+    padding: 0 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .text-grey{
+    color: #707070;
+  }
+  .btn-daftar{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    background: #ba0716;
+    border: 1px solid #ba0716;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-daftar:hover{
+    background: white;
+    color: #ba0716;
+    border: 1px solid #ba0716;
+  }
+  .btn-login{
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    background: #ba0716;
+    border: 1px solid #ba0716;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-login:hover{
+    background: white;
+    color: #ba0716;
+    border: 1px solid #ba0716;
+  }
+  
