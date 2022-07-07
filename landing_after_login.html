@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/auth.css">
+    <link rel="stylesheet" href="assets/css/custom.css">  
 
     <title>PT Pelni - Landing Page</title>
 </head>
@@ -13,7 +15,7 @@
     <nav>
         <ul>
             <li class="logo">
-                <a href="javascript:void(0)">
+                <a href="index.html">
                     <img src="assets/img/logo_pelni.png" alt="logo" class="logo" height="50">
                 </a>
             </li>
@@ -21,7 +23,7 @@
                 <a href="#" class="nav-link">Tentang Kami</a>
             </li>
             <li>
-                <a href="#" class="nav-link">Reservasi Tiket</a>
+                <a href="travel_ticket_search.html" class="nav-link">Reservasi Tiket</a>
             </li>
             <li>
                 <a href="#" class="nav-link">Tol Laut & Jasa Logistik</a>
@@ -75,11 +77,19 @@
                 <h4 class="mt-3 mb-custom">Tujuan Perjalanan</h4>
 
                 <div class="input-group">
-                    <span class="input-group-addon">
+                    <span class="input-group-addon" style="border-right: none;">
                         Dari
                     </span>
                     <select name="asal">
                         <option value="">Pilih Asal Pelabuhan</option>
+                        <option value="Sibolga">Sibolga</option>
+                        <option value="Gunung Sitoli / Nias">Gunung Sitoli / Nias</option>
+                        <option value="Teluk Bayur (Padang)">Teluk Bayur (Padang)</option>
+                        <option value="Panjang">Panjang</option>
+                        <option value="Cilegon">Cilegon</option>
+                        <option value="Gorontalo">Gorontalo</option>
+                        <option value="Luwuk">Luwuk</option>
+                        <option value="Surabaya">Surabaya</option> 
                     </select>
                 </div>   
 
@@ -88,11 +98,14 @@
                 </div>
 
                 <div class="input-group mb-custom">
-                    <span class="input-group-addon">
+                    <span class="input-group-addon" style="border-right: none;">
                         Dari
                     </span>
                     <select name="asal">
                         <option value="">Pilih Tujuan Pelabuhan</option>
+                        <option value="Kalabahi">Kalabahi</option>
+                        <option value="Pontianak">Pontianak</option>
+                        <option value="Natuna">Natuna</option>                        
                     </select>
                 </div> 
                 
@@ -100,16 +113,56 @@
                 <div class="input-group mb-custom">
                     <input type="date" class="form-control-reservasi" placeholder="Tanggal Berangkat">
                 </div>
+                
+                <div class="category-usia-landing" style="width: 100%; margin-bottom: 100px;">
+                    <div class="input25" style="width: 27%; float: left;">
+                        <div class="form-group mb-10" style="padding-right: 20px;">
+                            <label for="male" class="mb-custom">Dewasa</label>
+                            <div class="input-group-age">
+                                <span class="input-group-age-addon">
+                                    <i class="fa fa-male"></i>
+                                </span>
+                                <input type="number" name="male" id="male" value="0">
+                            </div> 
+                        </div>   
+                    </div>
+                    <div class="input25" style="width: 27%; float: left;">
+                        <div class="form-group mb-10" style="padding-right: 20px;">
+                            <label for="female" class="mb-custom text-white">-</label>
+                            <div class="input-group-age">
+                                <span class="input-group-age-addon">
+                                    <i class="fa fa-female"></i>
+                                </span>
+                                <input type="number" name="female" id="female" value="0">
+                            </div> 
+                        </div>   
+                    </div>
+                    <div class="input25" style="width: 27%; float: left;">
+                        <div class="form-group mb-10" style="padding-right: 20px;">
+                            <label for="child" class="mb-custom">Bayi (0-23 bulan)</label>
+                            <div class="input-group-age">
+                                <span class="input-group-age-addon">
+                                    <i class="fa fa-child"></i>
+                                </span>
+                                <input type="number" name="child" id="child" value="0">
+                            </div> 
+                        </div>   
+                    </div>
+                </div>
 
                 <h4 class="mt-3 mb-custom">Kelas Kapal</h4>
                 <div class="input-group">
                     <select name="kelas" class="select-form-control">
                         <option value="">Pilih Kelas Kapal</option>
+                        <option value="Ekonomi Exs Kabin Kls 2">EKONOMI EKS KABIN KLS 2</option>
+                        <option value="Bisnis Kelas 1">BISNIS KELAS 1</option>
+                        <option value="Bisnis Kelas 2">BISNIS KELAS 2</option>
+                        <option value="VIP">VIP</option> 
                     </select>
                 </div>
                 
                 <div class="input-group">
-                    <button class="btn-cari-pelayaran">Cari Pelayaran</button>
+                    <button class="btn-car  i-pelayaran" onclick="location.href='travel_ticket_search.html'">Cari Pelayaran</button>
                 </div>
                 <div class="input-group">
                     <button class="btn-cek-pemesanan">Cek Pemesanan</button>
@@ -118,7 +171,7 @@
             </div>
 
         </div>
-    </div>
+    </div> 
 
     <div class="content margin-top-content">
         <div class="leftCol">
@@ -176,7 +229,7 @@
         </div>
         <div class="column">
            <div class="card">
-            <img src="assets/img/layanan-1.png" alt="Avatar" style="width:100%">
+            <img src="assets/img/layanan-2.png" alt="Avatar" style="width:100%">
             <div class="container">
               <h4 class="mb-10"><b>Galangan Surya</b></h4> 
               <hr class="line-separator">
@@ -186,7 +239,7 @@
         </div>
         <div class="column">
            <div class="card">
-            <img src="assets/img/layanan-1.png" alt="Avatar" style="width:100%">
+            <img src="assets/img/layanan-3.png" alt="Avatar" style="width:100%">
             <div class="container">
               <h4 class="mb-10"><b>PELNI Asset</b></h4> 
               <hr class="line-separator">
@@ -196,7 +249,7 @@
         </div>
         <div class="column">
            <div class="card">
-            <img src="assets/img/layanan-1.png" alt="Avatar" style="width:100%">
+            <img src="assets/img/layanan-4.png" alt="Avatar" style="width:100%">
             <div class="container">
               <h4 class="mb-10"><b>Keagenan Kapal</b></h4> 
               <hr class="line-separator">
@@ -236,10 +289,10 @@
 
     <div class="dropdown-user" style="display: none;">
         <div class="dropdown-menu">
-           <a href="">Riwayat Transaksi</a>
+           <a href="history.html">Riwayat Transaksi</a>
         </div>
         <div class="dropdown-menu">
-            <a href="">Pengaturan</a>
+            <a href="javascript:void(0)">Pengaturan</a>
         </div>
         <div class="dropdown-menu">
             <button class="btn-logout" onclick="location.href='index.html'">Logout</button>

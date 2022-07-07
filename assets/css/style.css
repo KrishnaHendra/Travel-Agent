@@ -90,6 +90,9 @@ ul {
 .nav-link{
     color: black;
 }
+.nav-link:hover{
+  border-bottom: 2px solid #F98015;
+}
 .nav-username{
     color: black;
     font-weight: bold;
@@ -166,8 +169,11 @@ ul {
     margin-top: 7px;
     font-weight: 200;
 }
+.mt-custom{
+  margin-top: 5px;
+}
 .mb-custom{
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
 }
 .input-group {
     display: flex;
@@ -181,6 +187,7 @@ ul {
     border-left: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    color: #707070;
   }
 
   .input-group-addon {
@@ -189,6 +196,7 @@ ul {
     border: 1px solid #a6a6a6;
     background: #fff;
     padding: 0.9em 3em;
+    color: #707070;
   }
 
   .separator{
@@ -210,6 +218,7 @@ ul {
       padding: 15px !important;
   }
   .btn-cari-pelayaran{
+    cursor: pointer;
     background: #BA0716;
     border: 1px solid #BA0716;
     font-weight: bold;
@@ -232,7 +241,7 @@ ul {
     padding: 15px;
   }
   .margin-top-content{
-    margin-top: 550px;
+    margin-top: 630px;
   }
   .text-danger{
     color: #BA0716;
@@ -325,7 +334,7 @@ ul {
 
   .dropdown-user{
     background: white;
-    width: 200px;
+    width: 180px;
     position: fixed;
     top: 88px;
     right: 110px;
@@ -333,7 +342,7 @@ ul {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
   }
   .dropdown-menu{
-    width: 90%;
+    width: 89%;
     background: white;
     padding: 10px;
     font-weight: bold;
@@ -418,5 +427,8 @@ ul {
 }
 #showLogin:hover{
     color: #f98015;
+}
+.content-image-header{
+    margin-top: 10px;
 }
 

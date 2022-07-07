@@ -1,0 +1,667 @@
+.content-reservation{
+    margin: 50px;
+    height: 225px;
+    border: 1px solid #9b9b9b;
+    padding: 30px 40px;
+    border-radius: 5px;
+}
+.info-reservation{
+    cursor: pointer;
+    width: 92.5%;
+    margin: 30px 50px;
+    border-bottom: 1px solid #9b9b9b;
+    padding: 10px 0 90px 0;
+    height: 100px;
+    /* Additional  */
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.info-reservation:hover{
+    background-color: #f6f6f6;;
+}
+.text-abu{
+    color: #c5c5c5 !important;
+}
+.text-semi-black{
+    color: #1c1c1c !important;
+}
+.left-col-reservation{
+    width: 60%;
+    float: left;
+}
+.right-col-reservation{
+    width: 40%;
+    float: right;
+    text-align: right;
+    height: 90px;
+    line-height: 90px;
+}
+.btn-close-search{
+    padding: 15px 40px;
+    background: #BA0716;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-search-cruise{
+    cursor: pointer;
+    width: 95.5%;
+    padding: 15px 40px;
+    background: #BA0716;
+    border: 1px solid #BA0716;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+.btn-next{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 92%;
+    padding: 15px 40px;
+    background: #BA0716;
+    border: 1px solid #BA0716;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.btn-req-payment{
+    padding: 10px 40px;
+    background: #BA0716;
+    border: 1px solid #BA0716;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.row-btn-request{
+    margin-top: 120px;
+    width: 100%;
+    text-align: center !important;
+}
+.col-info-reservation{
+    width: 25%;
+    float: left;
+}
+.col-info-reservation-separator{
+    width: 10%;
+    float: left;
+}
+
+.input-group-reservation {
+    display: flex;
+    align-content: stretch;
+    margin-top: 7px;
+}
+
+.input-group-age {
+    display: flex;
+    align-content: stretch;
+    margin-top: 7px;
+}
+
+.input-group-reservation > select {
+    flex: 1 0 auto;
+    border: 1px solid #a6a6a6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 10px;
+    color: #707070;
+}
+.input-group-reservation > input {
+    flex: 1 0 auto;
+    border: 1px solid #a6a6a6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 10px;
+    color: #707070;
+}
+
+.input-group-age > input {
+    flex: 1 0 auto;
+    border: 1px solid #a6a6a6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    color: #707070;
+    width: 20px;
+}
+
+.input-group-reservation-addon {
+    background: none;
+    border: 1px solid #a6a6a6;
+    border-right: none;
+    padding: 0.8em 2em;
+    color: #707070;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input-group-age-addon {
+    background: none;
+    border: 1px solid #a6a6a6;
+    border-right: none;
+    padding: 0.8em 1em;
+    color: #707070;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.separator-form-group{
+    width: 10%;
+    float: left;
+    text-align: center;
+    padding: 30px 0;
+}
+.categori-usia{
+    width: 33.3%;
+    float: left;
+}
+.p-inner{
+    padding: 0 5px 0 20px;
+}
+.input-keberangkatan{
+    background: white;
+    border: 1px solid #a6a6a6;
+    border-radius: 5px;
+    padding: 13.5px;
+    margin-top: 7px;
+    width: 100%;
+    color: #707070;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.form-down{
+    margin-top: 130px !important;
+}
+.info-down{
+    width: 100%;
+    float: left;
+}
+.count-search{
+    margin-bottom: 40px !important;
+}
+.divResult{
+    margin: 0 50px;
+}
+.table-result{
+    width: 100%;
+    border: 1px solid #a6a6a6;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+}
+.table-result td{
+    padding: 45px 20px;
+}
+tbody td{
+    border-top: 1px solid #a6a6a6;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.bb-grey{
+    border-bottom: 1px solid #a6a6a6;
+}
+.border-none{
+    border: none !important;
+}
+.text-orange{
+    color: #f98015;
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+.mb-choose{
+    margin-bottom: 20px;
+}
+.btn-choose-ticket{
+    padding: 7px 40px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #f98015;
+    background: #f98015;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-choose-ticket:hover{
+    border: 1px solid #f98015;
+    background: white;
+    color: #f98015;
+}
+.font-size-light{
+    font-weight: 500;
+}
+.separator-grey{
+    border: 1px solid #d9d9d9;
+}
+.text-grey6b{
+    color: #6b6b6b !important;
+}
+.content-passenger{
+    width: 100%;
+}
+.left-content-passenger{
+    width: 60%;
+    float: left;
+    margin-bottom: 130px;
+}
+.right-content-passenger{
+    width: 40%;
+    float: right;
+    margin-top: 60px;
+}
+.left-content-payment{
+    width: 60%;
+    float: left;
+    margin-bottom: 130px;
+}
+.right-content-payment{
+    width: 40%;
+    float: right;
+}
+.inner-passenger, .inner-payment{
+    padding: 60px;
+}
+.card-info-ticket{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 365px;
+}
+.card-info-payment{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 708px;
+}
+.card-header-ticket{
+    padding: 20px;
+    background: #d9d9d9;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+}
+.card-header-payment{
+    padding: 20px;
+    background: #d9d9d9;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+}
+.card-footer-payment{
+    padding: 20px;
+    background: #d9d9d9;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+.arrow-danger{
+    height: 45px;
+}
+.mx-normal{
+    margin: auto;
+    font-size: 20px;
+}
+.card-body-ticket{
+    padding: 30px 20px;
+}
+.left-card-body{
+    width: 40%;
+    float: left;
+}
+.right-card-body{
+    width: 40%;
+    float: right;
+}
+.separator-card-body-ticket{
+    width: 100%;
+    margin-top: 150px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+
+/* Captcha */
+.captcha {
+    width: 90%;
+	background-color:#f9f9f9;
+	border:2px solid #d3d3d3;
+	border-radius:5px;
+	color:#4c4a4b;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+@media screen and (max-width: 500px) {
+	.captcha {
+		flex-direction:column;
+	}
+	.text {
+		margin:.5em!important;
+		text-align:center;
+	}
+	.logo-captcha {
+		align-self: center!important;
+	}
+	.spinner {
+		margin:2em .5em .5em .5em!important;
+	}
+}
+
+.text {
+	font-size:1em;
+	font-weight:500;
+	margin-right:1em;
+}
+.spinner {
+	position:relative;
+	width:2em;
+	height:2em;
+	display:flex;
+	margin:2em 1em;
+	align-items:center;
+	justify-content:center;
+}
+.captchaCheck { position: absolute; opacity: 0; z-index: -1; }
+.captchaCheck+.checkmark {
+	display:inline-block;
+	width:2em;
+	height:2em;
+	background-color:#fcfcfc;
+	border:2.5px solid #c3c3c3;
+	border-radius:3px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	cursor: pointer;
+}
+.captchaCheck+.checkmark span {
+	content:'';
+	position:relative;
+	margin-top:-3px;
+	transform:rotate(45deg);
+	width:.75em;
+	height:1.2em;
+	opacity:0;
+}
+.captchaCheck+.checkmark>span:after {
+	content:'';
+	position:absolute;
+	display:block;
+	height:3px;
+	bottom:0;left:0;
+	background-color:#029f56;
+}
+.captchaCheck+.checkmark>span:before {
+	content:'';
+	position:absolute;
+	display:block;
+	width:3px;
+	bottom:0;right:0;
+	background-color:#029f56;
+}
+.captchaCheck:checked+.checkmark { 
+	animation:2s spin forwards;
+}
+.captchaCheck:checked+.checkmark>span { 
+	animation:1s fadein 1.9s forwards;
+}
+.captchaCheck:checked+.checkmark>span:after {animation:.3s bottomslide 2s forwards;}
+.captchaCheck:checked+.checkmark>span:before {animation:.5s rightslide 2.2s forwards;}
+@keyframes fadein {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes bottomslide {
+	0% {width:0;}
+	100% {width:100%;}
+}
+@keyframes rightslide {
+	0% {height:0;}
+	100% {height:100%;}
+}
+.logo-captcha {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	height:80%;
+	align-self:flex-end;
+	margin:0.5em 1em;
+}
+.logo-captcha img {
+	height:2em;
+	width:2em;
+}
+.logo-captcha p {
+	color:#9d9ba7;
+	margin:0;
+	font-size:1em;
+	font-weight:700;
+	margin:.4em 0 .2em 0;
+}
+.logo-captcha small {
+	color:#9d9ba7;
+	margin:0;
+	font-size:.8em;
+}
+@keyframes spin {
+	10% {
+		width:0;
+		height:0;
+		border-width:6px;
+	}
+	30% {
+		width:0;
+		height:0;
+		border-radius:50%;
+		border-width:1em;
+		transform: rotate(0deg);
+		border-color:rgb(199,218,245);
+	}
+	50% {
+		width:2em;
+		height:2em;
+		border-radius:50%;
+		border-width:4px;
+		border-color:rgb(199,218,245);
+		border-right-color:rgb(89,152,239);
+	}
+	70% {
+		border-width:4px;
+		border-color:rgb(199,218,245);
+		border-right-color:rgb(89,152,239);
+	}
+	90% {
+		border-width:4px;
+	}
+	100% {
+		width:2em;
+		height:2em;
+		border-radius:50%;
+		transform: rotate(720deg);
+		border-color:transparent;
+	}
+}
+::selection {
+	background-color:transparent;
+	color:teal;
+}
+::-moz-selection {
+	background-color:transparent;
+	color:teal;
+}
+.inner-form-passenger-left{
+    padding-right:30px;
+}
+.inner-form-passenger-right{
+    padding-left: 30px;
+}
+.form-control-passenger{
+    margin-top: 10px;
+    width: 90%;
+    border: 1px solid #a6a6a6;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+.mb-form-group{
+    margin-bottom: 20px;
+}
+.check-condition{
+    width: 20px;
+    height: 20px;
+}
+.content-invoice{
+    padding: 60px;
+}
+.right-col-invoice{
+    padding: 30px 0;
+    /* height: 103px; */
+    vertical-align: middle !important;
+}
+.title-invoice{
+    margin-top: 100px;
+    background: #BA0716;
+    padding: 10px 15px;
+}
+.border-invoice{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.inner-invoice{
+    padding: 20px;
+}
+.left-inner-invoice{
+    width: 50%;
+    float: left;
+}
+.right-inner-invoice{
+    width: 50%;
+    float: right;
+}
+.bg-grey{
+    background-color: #d9d9d9;
+}
+.table-invoice{
+    border-collapse: collapse;
+    border: none;
+}
+.table-invoice td{
+    border: none;
+    padding: 10px;
+}
+.mb-custom-total{
+    border-bottom: 2px solid white !important;
+}
+.content-history{
+    padding: 60px;
+}
+.card-history{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-top: 30px;
+    height: 140px;
+}
+.mx-icon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.text-separator{
+    margin: 0 15px;
+}
+.card-history-footer{
+    float: right;
+}
+.btn-not-paid{
+    background: #BABABA;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.link-show-invoice{
+    color: #646464;
+    margin-right: 25px;
+}
+.btn-show-eticket{
+    padding: 10px 15px;
+    background: #BA0716;
+    border: 1px solid #BA0716;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.mt-history{
+    margin-top: 45px;
+}
+.alert-message-reservation{
+    padding: 85px;
+    text-align: center;
+}
+.table-booking, .table-booking-down{
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+.table-booking td{
+    padding: 10px;
+    border: none;
+}
+.table-booking-down td{
+    padding: 10px;
+}
+.text-success{
+    color: #01A44C; 
+}
+.bg-e1{
+    width: 100%;
+    background: #e1e1e1;
+    padding: 20px;
+    cursor: pointer;
+}
+.bg-e1:hover{
+    color: #707070;
+    background: #e6e6e6;
+}
+.content-collapse{
+    width: 99.5%;
+    background: white;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+}
+.table-method-payment{
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.table-method-payment td{
+    padding: 10px;
+    border: none;
+}
+.v-middle{
+    vertical-align: middle !important;
+}
+.mt-header-collapse{
+    margin-top: 30px;
+}
+#searchCruise:disabled{
+    background: #c34953;
+    border: 1px solid #c34953;
+}
+
+
+
+
+
+
