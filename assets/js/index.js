@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     // Hide Dropdown User after scroll 
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
