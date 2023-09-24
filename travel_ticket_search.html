@@ -1,1 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/auth.css">
+    <link rel="stylesheet" href="assets/css/custom.css">  
+    <title>PT Pelni - Landing Page</title>
+</head>
+<body>
 
+    <nav>
+        <ul>
+            <li class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logo_pelni.png" alt="logo" class="logo" height="50">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">Tentang Kami</a>
+            </li>
+            <li>
+                <a href="travel_ticket_search.html" class="nav-link">Reservasi Tiket</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">Tol Laut & Jasa Logistik</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">Layanan</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">Galeri</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">Berita</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">Kontak Kami</a>
+            </li>
+
+            <li class="right-menu icon-nav">
+                <a class="nav-link" href="javascript:void(0)">
+                    <img src="assets/img/languange.png" alt="lang" width="30px">
+                </a>
+            </li>
+            <li class="right-menu">
+                <a class="nav-username" id="btn-profile-user">Username</a>
+            </li>
+            <li class="right-menu icon-nav">
+                <a class="nav-link font-weight-bold" href="javascript:void(0)">
+                    <i class="fa fa-user-circle" style="font-size: 30px;"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="content-image-header">
+        <img src="assets/img/image-header.png" alt="img" width="100%">
+    </div>
+
+    <div class="content-reservation">
+        <div class="form-top">
+            <div class="left-form-reservation" style="width: 60%; float: left;">
+                <div class="form-group mb-10" style="width: 45%; float: left;">
+                    <label for="asal_pelabuhan" class="font-weight-bold mb-5">Tujuan Perjalanan</label>
+                    <div class="input-group-reservation">
+                        <span class="input-group-reservation-addon">
+                            Dari
+                        </span>
+                        <select name="asal_pelabuhan" id="asal_pelabuhan">
+                            <option value="Dari">Pilih Asal Pelabuhan</option>
+                            <option value="Sibolga">Sibolga</option>
+                            <option value="Gunung Sitoli / Nias">Gunung Sitoli / Nias</option>
+                            <option value="Teluk Bayur (Padang)">Teluk Bayur (Padang)</option>
+                            <option value="Panjang">Panjang</option>
+                            <option value="Cilegon">Cilegon</option>
+                            <option value="Gorontalo">Gorontalo</option>
+                            <option value="Luwuk">Luwuk</option>
+                            <option value="Surabaya">Surabaya</option>
+                        </select>
+                    </div> 
+                </div>  
+                <div class="separator-form-group">
+                    <img src="assets/img/separator.png" alt="img">
+                </div>
+                <div class="form-group mb-10" style="width: 45%; float: left;">
+                    <label for="tujuan_pelabuhan" class="font-weight-bold mb-5">Tujuan Perjalanan</label>
+                    <div class="input-group-reservation">
+                        <span class="input-group-reservation-addon">
+                            Dari
+                        </span>
+                        <select name="tujuan_pelabuhan" id="tujuan_pelabuhan">
+                            <option value="Ke">Pilih Tujuan Pelabuhan</option>
+                            <option value="Kalabahi">Kalabahi</option>
+                            <option value="Pontianak">Pontianak</option>
+                            <option value="Natuna">Natuna</option>
+                        </select>
+                    </div> 
+                </div>  
+            </div>
+            <div class="right-form-reservation" style="width: 40%; float: left;">
+                <div class="categori-usia">
+                    <div class="form-group mb-10 p-inner">
+                        <label for="male" class="font-weight-bold mb-5">Dewasa</label>
+                        <div class="input-group-age">
+                            <span class="input-group-age-addon">
+                                <i class="fa fa-male"></i>
+                            </span>
+                            <input type="number" name="male" id="male" value="0">
+                        </div> 
+                    </div>  
+                </div>
+                <div class="categori-usia">
+                    <div class="form-group mb-10 p-inner">
+                        <label for="female" class="font-weight-bold mb-5 text-white">-</label>
+                        <div class="input-group-age">
+                            <span class="input-group-age-addon">
+                                <i class="fa fa-female"></i>
+                            </span>
+                            <input type="number" name="female" id="female" value="0">
+                        </div> 
+                    </div>  
+                </div>
+                <div class="categori-usia">
+                    <div class="form-group mb-10 p-inner">
+                        <label for="child" class="font-weight-bold mb-5">Bayi (0-23 bulan)</label>
+                        <div class="input-group-age">
+                            <span class="input-group-age-addon">
+                                <i class="fa fa-child"></i>
+                            </span>
+                            <input type="number" name="child" id="child" value="0">
+                        </div> 
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!-- Separator -->
+        <div class="form-down">
+            <div class="left-form-reservation" style="width: 55%; float: left;">
+                <div class="form-group mb-10" style="width: 45%; float: left; margin-right: 28px;">
+                    <label for="keberangkatan" class="font-weight-bold mb-5">Keberangkatan</label>
+                    <div class="input-group-keberangkatan">
+                       <input type="date" class="input-keberangkatan" name="keberangkatan" id="keberangkatan">
+                    </div> 
+                </div>                 
+                <div class="form-group mb-10" style="width: 45%; float: left; margin-left: 28px;">
+                    <label for="kelas_kapal" class="font-weight-bold mb-5">Kelas Kapal</label>
+                    <div class="input-group-keberangkatan">
+                       <select name="kelas_kapal" id="kelas-kapal" class="input-keberangkatan">
+                            <option value="">Pilih Semua Kapal</option>
+                            <option value="Ekonomi Exs Kabin Kls 2">EKONOMI EKS KABIN KLS 2</option>
+                            <option value="Bisnis Kelas 1">BISNIS KELAS 1</option>
+                            <option value="Bisnis Kelas 2">BISNIS KELAS 2</option>
+                            <option value="VIP">VIP</option>
+                       </select>
+                    </div> 
+                </div>                 
+            </div>
+            <div class="right-form-reservation-btn" style="width: 45%; float: left;">
+                <div class="form-group mb-10">
+                    <label for="kelas_kapal" class="font-weight-bold mb-5 ml-20 text-white">-</label>
+                    <div>
+                       <button class="btn-search-cruise ml-20" id="searchCruise">Cari Pelayaran</button>
+                    </div> 
+                </div>                 
+            </div>
+        </div>
+    </div>
+
+    <div class="info-reservation" onclick="location.href='booking_detail.html'">
+        <div class="info-top">
+            <div class="left-col-reservation">
+                <div class="col-info-reservation">
+                    <h3 class="margin-0 text-abu mb-10">Pelabuhan Asal</h3> 
+                    <h1 class="text-semi-black mt-custom" id="originPort">Dari</h1>
+                </div>
+                <div class="col-info-reservation-separator">
+                    <h3 class="margin-0 text-white mb-10">-</h3> 
+                    <h1 class="text-semi-black mt-custom">
+                        <i class="fa fa-arrow-right text-grey"></i>
+                    </h1>
+                </div>
+                <div class="col-info-reservation">
+                    <h3 class="margin-0 text-abu mb-10">Pelabuhan Tujuan</h3> 
+                    <h1 class="text-semi-black mt-custom" id="destinationPort">Ke</h1>
+                </div>
+            </div>
+            <div class="right-col-reservation">
+                <a href="javascript:void(0)" class="btn-close-search">Tutup Pencarian</a>
+            </div>
+        </div>
+        <div class="info-down">
+            <h3 class="count-search text-abu"><span id="totalMature">0</span>  Dewasa <span id="totalChild">0</span> Bayi (0 - 23 Bulan)</h3>         
+        </div>
+    </div>
+
+
+    <div class="alert-message-reservation">
+        <h1 class="text-grey margin-0 font-size-light">Isi Kolom Pencarian Terlebih Dahulu</h1> 
+     </div>
+ 
+     <hr class="separator-grey"> 
+
+
+    <footer>
+        <div class="footer-top">
+            <img src="assets/img/footer.png" alt="footer" width="100%">
+        </div>
+        <hr class="separator-footer">
+        <div class="footer-sponsor">
+            <img src="assets/img/footer-sponsor.png" alt="sponsor" width="100%">
+        </div>
+    </footer>
+    <div class="footer-copyright">
+        &copy; Copyright 2022 - PT PELNI
+    </div>
+
+    <div class="dropdown-user" style="display: none;">
+        <div class="dropdown-menu">
+           <a href="history.html">Riwayat Transaksi</a>
+        </div>
+        <div class="dropdown-menu">
+            <a href="javascript:void(0)">Pengaturan</a>
+        </div>
+        <div class="dropdown-menu">
+            <button class="btn-logout" onclick="location.href='index.html'">Logout</button>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>    
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+</body> 
+</html>
